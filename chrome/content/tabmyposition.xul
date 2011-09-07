@@ -1,0 +1,11 @@
+﻿<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://sumocanned/skin/styles.css" type="text/css"?>
+<!DOCTYPE window SYSTEM "chrome://tabmyposition/locale/tabmyposition.dtd">
+<overlay xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+  <preferences id="tabsPreferences">
+    <preference id="browser.tabs.insertRelatedAfterCurrent" name="browser.tabs.insertRelatedAfterCurrent" type="bool" inverted="true"/>
+  </preferences>
+  <vbox id="tabPrefsBox">
+    <checkbox id="openRelatedAfterCurrent" label="&tabmyposition.pref.label;" preference="browser.tabs.insertRelatedAfterCurrent"/>
+  </vbox>
+</overlay>

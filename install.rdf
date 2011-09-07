@@ -1,0 +1,45 @@
+﻿<?xml version="1.0"?>
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+
+  <Description about="urn:mozilla:install-manifest">
+   
+    <em:id>tabmyposition@tobbi.tk</em:id>
+    <em:version>1.0.1</em:version>
+    <em:creator>Tobias Markus</em:creator>
+    <em:name>TabMyPosition!</em:name>
+    <em:translator>Eduardo Leon (es-AR)</em:translator>
+    <em:translator>Mikael Hiort af Ornäs (sv-SE)</em:translator>
+    <em:description>Allows you to choose where to open related tabs</em:description>
+    <em:localized>
+        <Description>
+            <em:locale>de-DE</em:locale>
+            <em:name>TabMyPosition!</em:name>
+            <em:description>Wählen Sie, wo Sie zugehörige Tabs anordnen wollen</em:description>
+        </Description>
+    </em:localized>
+    <em:localized>
+        <Description>
+            <em:locale>es-AR</em:locale>
+            <em:name>TabMyPosition!</em:name>
+            <em:description>Le permite elegir dónde abrir las pestañas relacionadas</em:description>
+        </Description>
+    </em:localized>
+        <em:localized>
+        <Description>
+            <em:locale>sv-SE</em:locale>
+            <em:name>TabMyPosition!</em:name>
+            <em:description>Låter dig välja var relaterade flikar skall öppnas</em:description>
+        </Description>
+    </em:localized>
+    
+    <!-- Firefox -->
+    <em:targetApplication>
+      <Description>
+        <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
+        <em:minVersion>3.6</em:minVersion>
+        <em:maxVersion>4.0b11pre</em:maxVersion>
+      </Description>
+    </em:targetApplication>
+  </Description>
+</RDF>
