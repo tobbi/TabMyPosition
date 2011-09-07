@@ -1,6 +1,12 @@
 content	tabmyposition chrome/content/
 overlay	chrome://browser/content/preferences/tabs.xul chrome://tabmyposition/content/tabmyposition.xul
-locale tabmyposition en-US chrome/locale/en-US/
 locale tabmyposition de-DE chrome/locale/de-DE/
-locale tabmyposition sv-SE chrome/locale/sv-SE/
+locale tabmyposition en-US chrome/locale/en-US/
 locale tabmyposition es-AR chrome/locale/es-AR/
+locale tabmyposition fr    chrome/locale/fr/
+locale tabmyposition pt-BR chrome/locale/pt-BR/
+locale tabmyposition ru    chrome/locale/ru/
+locale tabmyposition sr    chrome/locale/sr/
+locale tabmyposition tr    chrome/locale/tr-TR/
+locale tabmyposition zh-CN chrome/locale/zh-CN/
+locale tabmyposition sv-SE chrome/locale/sv-SE/
